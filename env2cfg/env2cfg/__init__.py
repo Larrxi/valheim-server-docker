@@ -18,6 +18,8 @@ _PRE_TRANSLATE = {
     "_HYPHEN_": "-",
     "_PLUS_": "+",
     "_SPACE_": " ",
+    "_LEFT_BRACKET_": "(",
+    "_RIGT_BRACKET_": ")",
     "_UNDERSCORE_": "@UNDERSCORE@",
 }
 
