@@ -45,7 +45,7 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           build-args: SOURCE_COMMIT=${{ github.sha }}
           tags: |
-            lloesche/valheim-server:latest
+            larrxi/valheim-server:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
 
